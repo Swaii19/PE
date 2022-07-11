@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="174dp"
+        android:layout_height="67dp"
+        android:layout_x="12dp"
+        android:layout_y="33dp"
+        android:text="Ingrese Costo Total: " />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="174dp"
+        android:layout_height="67dp"
+        android:layout_x="11dp"
+        android:layout_y="120dp"
+        android:text="Ingrese Precio de venta: " />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="174dp"
+        android:layout_height="67dp"
+        android:layout_x="12dp"
+        android:layout_y="209dp"
+        android:text="Ingrese Costo de venta: " />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="174dp"
+        android:layout_height="67dp"
+        android:layout_x="12dp"
+        android:layout_y="297dp"
+        android:text="Resultado: " />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="174dp"
+        android:layout_height="67dp"
+        android:layout_x="211dp"
+        android:layout_y="297dp" />
+
+    <EditText
+        android:id="@+id/valor1"
+        android:layout_width="132dp"
+        android:layout_height="54dp"
+        android:layout_x="230dp"
+        android:layout_y="41dp"
+        android:ems="10"
+        android:hint="numero"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/valor2"
+        android:layout_width="132dp"
+        android:layout_height="54dp"
+        android:layout_x="229dp"
+        android:layout_y="126dp"
+        android:ems="10"
+        android:hint="numero"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/valor3"
+        android:layout_width="132dp"
+        android:layout_height="54dp"
+        android:layout_x="229dp"
+        android:layout_y="219dp"
+        android:ems="10"
+        android:hint="numero"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculo"
+        android:layout_width="144dp"
+        android:layout_height="66dp"
+        android:layout_x="27dp"
+        android:layout_y="435dp"
+        android:text="Calcular PE" />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="144dp"
+        android:layout_height="66dp"
+        android:layout_x="228dp"
+        android:layout_y="432dp"
+        android:text="Salir" />
+
+
+</AbsoluteLayout>
